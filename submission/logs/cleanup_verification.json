@@ -1,0 +1,26 @@
+{
+  "project_id": "project-b254970d-4ec2-4509-920",
+  "lab_resources_remaining": {
+    "instances": [],
+    "disks": [],
+    "networks": [],
+    "subnets": [],
+    "routers_and_nat": [],
+    "forwarding_rules": [],
+    "backend_services": [],
+    "health_checks": [],
+    "http_proxies": [],
+    "url_maps": [],
+    "instance_groups": [],
+    "firewalls": []
+  },
+  "existing_vm_preserved": [
+    {
+      "name": "voya-dev-01",
+      "status": "RUNNING"
+    }
+  ],
+  "terraform_state_list": [],
+  "verified_at_utc": "2026-10-02T10:39:50.796442+00:00",
+  "cleanup_verified": true
+}

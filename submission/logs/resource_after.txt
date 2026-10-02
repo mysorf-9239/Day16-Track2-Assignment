@@ -1,0 +1,17 @@
+Fri Oct  2 09:42:54 UTC 2026
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       566Mi       2.2Gi       532Ki       1.3Gi       3.3Gi
+Swap:             0B          0B          0B
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    RX:  bytes packets errors dropped  missed   mcast           
+             0       0      0       0       0       0 
+    TX:  bytes packets errors dropped carrier collsns           
+             0       0      0       0       0       0 
+2: ens4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1460 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether 42:01:0a:00:00:02 brd ff:ff:ff:ff:ff:ff
+    RX:  bytes packets errors dropped  missed   mcast           
+     262302318   16401      0       0       0       0 
+    TX:  bytes packets errors dropped carrier collsns           
+        876640    8673      0       0       0       0 
+    altname enp0s4
