@@ -1,0 +1,14 @@
+{
+  "captured_at_utc": "2026-10-02T09:43:00.033194+00:00",
+  "billing_day": "2026-10-02",
+  "project_id": "project-b254970d-4ec2-4509-920",
+  "group_by": "Service",
+  "observed_status": "No results to display; costs have not appeared for this date",
+  "observed_display_total_vnd": 0,
+  "lab_cost_confirmed": false,
+  "note": "Project also contains voya-dev-01. Future project totals are not solely attributable to Lab 16. Forecasts and existing trial credits are not the actual cost of this lab.",
+  "screenshots": [
+    "screenshots/billing-2026-10-02.png",
+    "screenshots/billing-project-scope.png"
+  ]
+}

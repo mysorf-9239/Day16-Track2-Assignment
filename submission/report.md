@@ -1,0 +1,8 @@
+1. Tôi dùng GCP, project `project-b254970d-4ec2-4509-920`, region `us-central1`, zone `us-central1-a`, VM CPU `e2-medium` (2 vCPU, 4 GB RAM), starter commit `55539f67d7c78b43afe334a2ec3271c4bfdbbe2d`.
+2. Dataset Kaggle Credit Card Fraud Detection có 284.807 dòng, 31 cột, 492 dòng gian lận; stratified train/validation/test = 170.883/56.962/56.962 (60/20/20), seed 16.
+3. Đo lúc 16:42:54 ngày 02/10/2026 (UTC+7): load 2.6374 giây; training 4.1126 giây; best iteration 68; early stopping dùng validation.
+4. Test: AUC 0.976848, Accuracy 0.999508, F1 0.847826, Precision 0.906977, Recall 0.795918; ngưỡng 0,5. Accuracy cao cần đọc cùng Recall/F1 vì mất cân bằng lớp.
+5. Latency 1 dòng 1.3400 ms; throughput batch 1.000 dòng 235811.71 dòng/giây; median của 50/10 lần, warm-up ngoài phép đo, chỉ tính predict_proba trên pandas input.
+6. Trong benchmark, top ghi CPU tiến trình tối đa 200% (2 vCPU), RES tối đa 483.844 KiB (~472,5 MiB), RAM hệ thống dùng tối đa 916,1 MiB; sau chạy free -h ghi 566 MiB used. Network ens4 sau chạy: RX 262.302.318 bytes, TX 876.640 bytes (tích lũy, không phải tốc độ). Ảnh: `screenshots/cpu-ram-network.png`.
+7. Billing quan sát lúc 16:43:00 ngày 02/10/2026 (UTC+7) cho ngày 02/10/2026, nhóm Service, đúng project: chưa có dữ liệu, hiển thị ₫0; không kết luận miễn phí. Chi phí gồm VM/disk/NAT/IP/LB/traffic; project còn VM khác nên tổng project không phải chi phí riêng lab. Ảnh Billing đính kèm; chưa có chi phí lab xác nhận.
+8. Đã tải code/JSON/log về laptop, kiểm tra SHA256; xác minh cleanup lúc 17:39:50 ngày 02/10/2026 (UTC+7): 16 tài nguyên Terraform đã xóa, state rỗng, tài nguyên lab không còn; voya-dev-01 vẫn RUNNING. Bằng chứng: `logs/terraform_destroy.txt`, `logs/cleanup_verification.json`.

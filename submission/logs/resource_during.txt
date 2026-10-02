@@ -1,0 +1,89 @@
+top - 09:42:44 up 17 min,  2 users,  load average: 0.00, 0.04, 0.05
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 75.0 us, 25.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3924.7 total,   2289.9 free,    538.5 used,   1346.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3386.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3826 danhdun+  20   0  158864  36452  17612 R 123.5   0.9   0:00.21 python3
+
+top - 09:42:45 up 17 min,  2 users,  load average: 0.00, 0.04, 0.05
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 51.1 us,  9.1 sy,  0.0 ni, 39.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.4 st 
+MiB Mem :   3924.7 total,   2289.9 free,    538.5 used,   1346.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3386.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3826 danhdun+  20   0  350652 105760  38800 R 118.8   2.6   0:01.41 python3
+
+top - 09:42:46 up 17 min,  2 users,  load average: 0.00, 0.04, 0.05
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 44.5 us,  5.5 sy,  0.0 ni, 49.5 id,  0.0 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3924.7 total,   2289.9 free,    538.5 used,   1346.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3386.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3826 danhdun+  20   0  484948 199404  50996 R  99.0   5.0   0:02.40 python3
+
+top - 09:42:47 up 17 min,  2 users,  load average: 0.00, 0.04, 0.05
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 47.5 us,  2.5 sy,  0.0 ni, 50.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3924.7 total,   2121.8 free,    706.5 used,   1346.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3218.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3826 danhdun+  20   0  512600 227124  50996 R 101.0   5.7   0:03.41 python3
+
+top - 09:42:48 up 17 min,  2 users,  load average: 0.00, 0.04, 0.05
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 48.0 us,  2.0 sy,  0.0 ni, 50.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3924.7 total,   2121.8 free,    706.5 used,   1346.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3218.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3826 danhdun+  20   0  540516 255108  50996 R 100.0   6.3   0:04.41 python3
+
+top - 09:42:49 up 17 min,  2 users,  load average: 0.08, 0.05, 0.05
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.3 us, 11.4 sy,  0.0 ni, 49.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3924.7 total,   2121.8 free,    706.5 used,   1346.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3218.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3826 danhdun+  20   0  755636 483844  54260 R 100.0  12.0   0:05.41 python3
+
+top - 09:42:50 up 17 min,  2 users,  load average: 0.08, 0.05, 0.05
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98.0 us,  0.0 sy,  0.0 ni,  1.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.5 st 
+MiB Mem :   3924.7 total,   1912.3 free,    916.1 used,   1346.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3008.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3826 danhdun+  20   0  744168 419880  55032 R 197.0  10.4   0:07.38 python3
+
+top - 09:42:51 up 17 min,  2 users,  load average: 0.08, 0.05, 0.05
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99.5 us,  0.5 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3924.7 total,   1912.3 free,    916.1 used,   1346.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3008.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3826 danhdun+  20   0  744168 419880  55032 R 200.0  10.4   0:09.39 python3
+
+top - 09:42:52 up 17 min,  2 users,  load average: 0.08, 0.05, 0.05
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99.0 us,  0.5 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.5 st 
+MiB Mem :   3924.7 total,   1912.3 free,    916.1 used,   1346.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3008.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3826 danhdun+  20   0  744168 419880  55032 R 198.0  10.4   0:11.39 python3
+
+top - 09:42:53 up 17 min,  2 users,  load average: 0.08, 0.05, 0.05
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99.5 us,  0.5 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3924.7 total,   1912.4 free,    916.0 used,   1346.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3008.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3826 danhdun+  20   0  744168 419880  55032 R 200.0  10.4   0:13.39 python3

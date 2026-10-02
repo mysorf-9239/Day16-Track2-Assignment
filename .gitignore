@@ -20,3 +20,14 @@ lab-key.pub
 # Environment Variables
 .env
 .env.local
+
+# Local lab tools, plans, data and credentials
+.local-tools/
+.lab-private/
+.idea/
+*.tfplan
+kaggle.json
+creditcard.csv
+creditcardfraud.zip
+__pycache__/
+lab16-submission.zip

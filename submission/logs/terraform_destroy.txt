@@ -1,0 +1,54 @@
+google_compute_global_forwarding_rule.vllm_fwd: Destroying... [id=projects/project-b254970d-4ec2-4509-920/global/forwardingRules/vllm-forwarding-rule]
+google_project_iam_member.gpu_node_log_writer: Destroying... [id=project-b254970d-4ec2-4509-920/roles/logging.logWriter/serviceAccount:gpu-node-sa@project-b254970d-4ec2-4509-920.iam.gserviceaccount.com]
+google_compute_firewall.allow_iap_ssh: Destroying... [id=projects/project-b254970d-4ec2-4509-920/global/firewalls/allow-iap-ssh]
+google_project_iam_member.gpu_node_metric_writer: Destroying... [id=project-b254970d-4ec2-4509-920/roles/monitoring.metricWriter/serviceAccount:gpu-node-sa@project-b254970d-4ec2-4509-920.iam.gserviceaccount.com]
+google_compute_firewall.allow_lb_healthcheck: Destroying... [id=projects/project-b254970d-4ec2-4509-920/global/firewalls/allow-lb-healthcheck]
+google_compute_firewall.allow_lb_healthcheck: Still destroying... [id=projects/project-b254970d-4ec2-4509-920/global/firewalls/allow-lb-healthcheck, 00m10s elapsed]
+google_compute_firewall.allow_iap_ssh: Still destroying... [id=projects/project-b254970d-4ec2-4509-920/global/firewalls/allow-iap-ssh, 00m10s elapsed]
+google_project_iam_member.gpu_node_log_writer: Still destroying... [id=project-b254970d-4ec2-4509-920/roles/lo...-4ec2-4509-920.iam.gserviceaccount.com, 00m10s elapsed]
+google_compute_global_forwarding_rule.vllm_fwd: Still destroying... [id=projects/project-b254970d-4ec2-4509-920...l/forwardingRules/vllm-forwarding-rule, 00m10s elapsed]
+google_project_iam_member.gpu_node_metric_writer: Still destroying... [id=project-b254970d-4ec2-4509-920/roles/mo...-4ec2-4509-920.iam.gserviceaccount.com, 00m10s elapsed]
+google_project_iam_member.gpu_node_log_writer: Destruction complete after 10s
+google_project_iam_member.gpu_node_metric_writer: Destruction complete after 11s
+google_compute_firewall.allow_lb_healthcheck: Destruction complete after 12s
+google_compute_firewall.allow_iap_ssh: Destruction complete after 12s
+google_compute_global_forwarding_rule.vllm_fwd: Still destroying... [id=projects/project-b254970d-4ec2-4509-920...l/forwardingRules/vllm-forwarding-rule, 00m20s elapsed]
+google_compute_global_forwarding_rule.vllm_fwd: Destruction complete after 23s
+google_compute_target_http_proxy.vllm_proxy: Destroying... [id=projects/project-b254970d-4ec2-4509-920/global/targetHttpProxies/vllm-http-proxy]
+google_compute_target_http_proxy.vllm_proxy: Still destroying... [id=projects/project-b254970d-4ec2-4509-920/global/targetHttpProxies/vllm-http-proxy, 00m10s elapsed]
+google_compute_target_http_proxy.vllm_proxy: Destruction complete after 11s
+google_compute_url_map.vllm_url_map: Destroying... [id=projects/project-b254970d-4ec2-4509-920/global/urlMaps/vllm-url-map]
+google_compute_url_map.vllm_url_map: Still destroying... [id=projects/project-b254970d-4ec2-4509-920/global/urlMaps/vllm-url-map, 00m10s elapsed]
+google_compute_url_map.vllm_url_map: Destruction complete after 12s
+google_compute_backend_service.vllm_backend: Destroying... [id=projects/project-b254970d-4ec2-4509-920/global/backendServices/vllm-backend]
+google_compute_backend_service.vllm_backend: Still destroying... [id=projects/project-b254970d-4ec2-4509-920/global/backendServices/vllm-backend, 00m10s elapsed]
+google_compute_backend_service.vllm_backend: Still destroying... [id=projects/project-b254970d-4ec2-4509-920/global/backendServices/vllm-backend, 00m20s elapsed]
+google_compute_backend_service.vllm_backend: Still destroying... [id=projects/project-b254970d-4ec2-4509-920/global/backendServices/vllm-backend, 00m30s elapsed]
+google_compute_backend_service.vllm_backend: Still destroying... [id=projects/project-b254970d-4ec2-4509-920/global/backendServices/vllm-backend, 00m40s elapsed]
+google_compute_backend_service.vllm_backend: Still destroying... [id=projects/project-b254970d-4ec2-4509-920/global/backendServices/vllm-backend, 00m50s elapsed]
+google_compute_backend_service.vllm_backend: Still destroying... [id=projects/project-b254970d-4ec2-4509-920/global/backendServices/vllm-backend, 01m42s elapsed]
+google_compute_backend_service.vllm_backend: Destruction complete after 1m50s
+google_compute_instance_group.gpu_group: Destroying... [id=projects/project-b254970d-4ec2-4509-920/zones/us-central1-a/instanceGroups/ai-gpu-group]
+google_compute_health_check.vllm_hc: Destroying... [id=projects/project-b254970d-4ec2-4509-920/global/healthChecks/vllm-health-check]
+google_compute_health_check.vllm_hc: Still destroying... [id=projects/project-b254970d-4ec2-4509-920/global/healthChecks/vllm-health-check, 01m00s elapsed]
+google_compute_instance_group.gpu_group: Still destroying... [id=projects/project-b254970d-4ec2-4509-920...central1-a/instanceGroups/ai-gpu-group, 01m00s elapsed]
+google_compute_health_check.vllm_hc: Destruction complete after 1m1s
+google_compute_instance_group.gpu_group: Destruction complete after 1m3s
+google_compute_instance.gpu_node: Destroying... [id=projects/project-b254970d-4ec2-4509-920/zones/us-central1-a/instances/ai-gpu-node]
+google_compute_instance.gpu_node: Still destroying... [id=projects/project-b254970d-4ec2-4509-920...es/us-central1-a/instances/ai-gpu-node, 00m55s elapsed]
+google_compute_instance.gpu_node: Destruction complete after 1m2s
+google_compute_router_nat.nat: Destroying... [id=project-b254970d-4ec2-4509-920/us-central1/ai-router/ai-nat]
+google_service_account.gpu_node_sa: Destroying... [id=projects/project-b254970d-4ec2-4509-920/serviceAccounts/gpu-node-sa@project-b254970d-4ec2-4509-920.iam.gserviceaccount.com]
+google_service_account.gpu_node_sa: Destruction complete after 2s
+google_compute_router_nat.nat: Destruction complete after 4s
+google_compute_router.router: Destroying... [id=projects/project-b254970d-4ec2-4509-920/regions/us-central1/routers/ai-router]
+google_compute_subnetwork.private: Destroying... [id=projects/project-b254970d-4ec2-4509-920/regions/us-central1/subnetworks/ai-private-subnet]
+google_compute_router.router: Still destroying... [id=projects/project-b254970d-4ec2-4509-920/regions/us-central1/routers/ai-router, 01m02s elapsed]
+google_compute_subnetwork.private: Still destroying... [id=projects/project-b254970d-4ec2-4509-920...central1/subnetworks/ai-private-subnet, 01m02s elapsed]
+google_compute_router.router: Destruction complete after 1m3s
+google_compute_subnetwork.private: Destruction complete after 1m3s
+google_compute_network.ai_vpc: Destroying... [id=projects/project-b254970d-4ec2-4509-920/global/networks/ai-vpc]
+google_compute_network.ai_vpc: Still destroying... [id=projects/project-b254970d-4ec2-4509-920/global/networks/ai-vpc, 01m00s elapsed]
+google_compute_network.ai_vpc: Destruction complete after 1m3s
+
+Apply complete! Resources: 0 added, 0 changed, 16 destroyed.
